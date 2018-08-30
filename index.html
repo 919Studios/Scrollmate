@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="scrollmatestyles.css">
+	<title>ScrollTool: click an image and your visitors are scrolled animated scroll to an area on click</title>
+	<meta name="description" content="Scrollmate.js was created to help developers get going with click events that scroll. Visit the repo on Github if you would like to learn more."/>
+</head>
+
+<body>
+
+	<section class="ScrollmateReturnArea">
+		<div>
+			<a href="#link_to_the_project_on_github"><svg id="scrollmateIcon" stroke="#175729" fill="#175729" xmlns="http://www.w3.org/2000/svg" width="136" height="136" viewBox="0 0 545 545"><title>Scrollmate js application logo</title><desc>Visit the Scrollmate Github page for more information</desc><path id="scrollmateBackground" fill="#35CC5F" d="M272.1 0C2.1 0 0 121.8 0 272.1s2.1 272.1 272.1 272.1 272.1-121.8 272.1-272.1S542.1 0 272.1 0z"/><path id="theIconItself" stroke-width="10" d="M146.153 138h169.324c26.158 0 47.371 21.19 47.348 47.348l-.157 174.027a35.865 35.865 0 0 0 2.352 12.856h78.234c-5.313 21.63-25.557 34.492-45.153 34.492H228.777c-26.158 0-47.372-21.19-47.348-47.348l.157-174.027a35.865 35.865 0 0 0-2.352-12.856H101c5.313-21.63 25.557-34.492 45.153-34.492zm169.324 11.915c-15.045 0-27.903 9.368-33.081 22.577h-90.933c1.198 4.106 2.042 8.373 2.038 12.856l-.157 174.027c-.018 19.619 15.814 35.433 35.433 35.433 15.045 0 27.902-9.368 33.08-22.577h90.934c-1.199-4.105-2.043-8.373-2.038-12.856l.156-174.027c.018-19.619-15.814-35.433-35.432-35.433zm-169.324 0h137.81a46.467 46.467 0 0 0-8.936 10.662H120.754c6.429-6.638 15.431-10.662 25.399-10.662zm123.073 234.232H423.5c-6.428 6.637-15.43 10.66-25.398 10.66H260.29a46.467 46.467 0 0 0 8.936-10.66z"/></svg></a>
+			<h1>Scrollmate</h1>
+			<p>scrollmate.js scrolls from one element to another when a trigger is clicked. The scroll animation time can quickly be slowed down or sped up.</p>
+			<img class="ScrollmateTrigger" src="200x200@2x-op-.png" alt="ScrollmateTrigger image placeholder" height="200" width="200">
+		</div>
+	</section>
+
+	<section class="spacerLight"><h2>IGNORE THIS - This Section is just for adding space</h2></section>
+
+	<section class="spacerDark">
+		<div>
+			<h1>Step #1: Add the trigger</h1>
+			<p>Add the class <code>.ScrollmateTrigger</code> to the element you want to trigger the scroll animation.</p>
+		</div>
+	</section>
+
+	<section class="spacerLight"><h2>IGNORE THIS - This Section is just for adding space</h2></section>
+
+	<section class="spacerDark">
+		<div>
+			<h1>Step #2: Set the target area</h1>
+			<p>Add the class <code>.ScrollmateTriggerArea</code> to an element (or area) you want to animate to.</p>
+		</div>
+	</section>
+
+	<section class="spacerLight"><h2>IGNORE THIS - This Section is just for adding space</h2></section>
+
+	<section class="spacerDark">
+		<div>
+			<h1>Step #3: Import the Javascript</h1>
+			<p>Download <a href="#location_of_scrollmate_javascript_on_github">Scrollmate JavaScript</a> and import it at the bottom of your web page(s) with the code below:</p>
+			<p><code>&lt;script src="/path/to/scrollmate.js"&gt;&lt;/script&gt;</code>
+		</div>
+	</section>
+
+	<section class="spacerLight"><h2>IGNORE THIS - This Section is just for adding space</h2></section>
+
+	<section class="spacerDark">
+		<div>
+			<h1>Modification Options:</h1>
+			<p><strong>Scrollmate Duration:</strong> The <a href="#link_to_line_in_js_that_does_this">Scrollmate Duration (in milliseconds)</a> is the time it takes to travel from <code>.ScrollmateTrigger</code> to the resting area <code>.ScrollmateTriggerArea</code>				(demo uses: <code>1250</code> and <code>500</code>).</p>
+		</div>
+	</section>
+
+	<section class="spacerLight"><h2>IGNORE THIS - This Section is just for adding space</h2></section>
+
+	<section class="spacerDark">
+		<div>
+			<h1>Questions / Issues / Improvements</h1>
+			<p>If you have any questions, if you’ve discovered an issue, or if you have an improvement in mind, please use the <a href="#link_to_scrollmate_on_github">Scrollmate GitHub repo</a> to get involved:</p>
+			<p><a href="#link_to_the_repo_on_github" class="button">Scrollmate on GitHub</a></p>
+		</div>
+	</section>
+
+	<section class="spacerLight"><h2>IGNORE THIS - This Section is just for adding space</h2></section>
+
+	<section class="ScrollmateTriggerArea">
+		<h1>Trigger Area</h1>
+		<p>This is the <code>.ScrollmateTriggerArea</code> that Scrollmate is animating to. </p>
+		<div>
+			<button class="ScrollmateReturnTrigger button">RETURN TO SCROLLMATE</button>
+		</div>
+	</section>
+
+	<section class="spacerLight"><h2>IGNORE THIS - This Section is just for adding space</h2></section>
+
+	<section class="spacerDark">
+		<div>
+			<h1>Scrollmate: Next up…</h1>
+			<ul>
+				<li>Scrollmate parameters configurable with <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*"><code>data- attributes</code></a></li>
+				<li>Add click helper js utility to improve UX.</li>
+				<li>Integrate other cool tools (such as <a href="#add_link_to_github_fadable_js">Fadable</a> from the fine gentleman at: <a href="#add_outfit_website_link_here">The Outfit</a>)</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="spacerLight"><h2>IGNORE THIS - This Section is just for adding space</h2></section>
+
+	<section class="spacerDark">
+		<div>
+			<h1>Back to ScrollMate on Github</h1>
+			<p><a href="#link_to_github_goes_here" class="link-to-github"><svg xmlns="http://www.w3.org/2000/svg" width="114" height="96" viewBox="0 0 114 96"><path fill="#8B8C8C" d="M42.44 59.302L.522 41.827l8.238-3.631 41.396 16.885z"/><path fill="#D6D4D5" d="M41.895 68.721l-8.216-3.45V17.339l8.216 3.813z"/><path fill="#D6D4D5" d="M41.895 44.777L0 26.848V3.7l41.85 17.475.045 23.603zm0 23.944L.59 50.905l-.068-9.078 41.373 17.248v9.646z"/><path fill="#8B8C8C" d="M34.27 33.657L6.264 21.174V14.23l27.983 12.255z"/><path fill="#5F6161" d="M13.912 17.566l-7.648 3.586V14.23l7.67 3.359-.022-.023zM64 70.672l-8.261 4.585v-47.57l8.579-3.449L64 70.672z"/><path fill="#5F6161" d="M50.156 64.136l-8.261 4.585V21.22l8.579-3.518z"/><path fill="#B2B5B5" d="M41.895 21.22L0 3.677 8.579.159l41.895 17.543z"/><path fill="#D6D4D5" d="M55.739 75.257l-8.216-3.927V23.898l8.216 3.79z"/><path fill="#B2B5B5" d="M55.739 27.688l-8.125-3.767 8.352-3.495 8.352 3.812z"/><path fill="#8B8C8C" d="M105.26 86.536L63.365 69.061l7.58-3.404 41.078 17.203z"/><path fill="#D6D4D5" d="M104.715 95.909l-8.216-3.404V44.528l8.216 3.79z"/><path fill="#D6D4D5" d="M104.715 71.943L62.82 54.014V30.865l41.85 17.475.045 23.603zm0 23.966L63.41 78.094l-.068-8.965 41.441 17.112-.068 9.668z"/><path fill="#8B8C8C" d="M97.067 60.823L69.084 48.34v-6.922l27.983 12.301z"/><path fill="#5F6161" d="M76.71 44.755l-7.604 3.585v-6.922l7.671 3.36-.068-.023zm36.266 46.57l-8.261 4.584v-47.5l8.579-3.518-.318 46.434z"/><path fill="#B2B5B5" d="M104.715 48.409L62.82 30.865l8.579-3.517 41.895 17.543z"/></svg></a></p>
+		</div>
+	</section>
+
+	<section class="spacerLight"><h2>IGNORE THIS - This Section is just for adding space</h2></section>
+
+	<!--load jQ-->
+	<script src='jQuery-v.3.2.1.js'></script>
+	<!--load scrollmate-->
+	<script src="scrollmate.js"></script>
+</body>
+
+</html>

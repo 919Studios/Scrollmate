@@ -1,0 +1,151 @@
+/* ========================================================================= */
+/* Everything below is unimportant - used only by the demo and not necessary */
+/* to make ScrollMate work.                                                  */
+/* ========================================================================= */
+
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: "gilroy";
+}
+
+.ScrollmateReturnArea {
+	border: 3px solid #175729;
+	background-color: #40c365;
+}
+
+.ScrollmateTriggerArea {
+	color: #a12b2f;
+	background-color: #fc4349;
+}
+
+.spacerDark {
+	background-color: #f27d19;
+}
+
+.spacerLight {
+	background-color: #fecb57;
+}
+
+h1 {
+	color: rgba(0, 0, 0, 0.325);
+	font-weight: 900;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.ScrollmateTrigger {
+	border: 5px solid #141414;
+	transition: all 250ms ease;
+}
+
+.ScrollmateTrigger:hover {
+	border: 5px solid #f8f8f8;
+	transition: all 250ms ease;
+}
+
+.button {
+	border-radius: 3px;
+	color: rgba(0, 0, 0, 0.75);
+	display: inline-block;
+	cursor: pointer;
+	font-size: 85%;
+	font-weight: 900;
+	padding: 0.75rem 1.25rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	border: 3px solid #175729;
+	background-color: #40c365;
+}
+.button:hover,
+.button:focus {
+	border: 3px solid #f8f8f8;
+	background-color: #141414;
+	color: #f8f8f8;
+}
+
+#scrollmateIcon {
+	stroke-width: 10;
+	padding: 1rem;
+	cursor: pointer;
+}
+
+#scrollmateIcon:hover {
+	stroke: #fc555b;
+	fill: #fc555b;
+	stroke-width: 10;
+	padding: 1rem;
+}
+
+#scrollmateBackground {
+	fill: #35cc5f;
+}
+
+#scrollmateBackground:hover {
+	fill: #8c2629;
+}
+
+section {
+	align-items: center;
+	background-color: #35cc5f;
+	border-radius: 3px;
+	display: flex;
+	min-height: 5vh;
+	justify-content: center;
+	flex-direction: column;
+	margin: 1rem;
+	padding: 2rem;
+}
+
+section div {
+	max-width: 42rem;
+	text-align: center;
+}
+
+@media (min-width: 600px) {
+	h1 {
+		font-size: 250%;
+	}
+}
+h1 em {
+	color: #000;
+}
+p,
+ul,
+ol {
+	color: rgba(0, 0, 0, 0.375);
+	font-size: 125%;
+}
+p:last-child {
+	margin-bottom: 0;
+}
+ul,
+ol {
+	padding-left: 0;
+	text-align: left;
+}
+pre,
+code {
+	background-color: rgba(255, 255, 255, 0.25);
+	color: #141414;
+	padding: 2px 4px;
+}
+pre code {
+	background-color: transparent;
+}
+a {
+	color: inherit;
+}
+pre {
+	text-align: left;
+}
+.link-to-outfit:hover path,
+.link-to-outfit:focus path {
+	fill: rgba(0, 0, 0, 0.325);
+}
+
+.spacerLight h2 {
+	display: none;
+}
