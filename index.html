@@ -1,110 +1,134 @@
 <!doctype html>
 <html lang="en">
 
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" href="scrollmatestyles.css">
-	<title>ScrollTool: click an image and your visitors are scrolled animated scroll to an area on click</title>
-	<meta name="description" content="Scrollmate.js was created to help developers get going with click events that scroll. Visit the repo on Github if you would like to learn more."/>
-</head>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/347964/scrollmatestyles.css">
+		<title>ScrollTool: click an image and your visitors are scrolled animated scroll to an area on click</title>
+		<meta name="description" content="Scrollmate.js was created to help developers get going with click events that scroll. Visit the repo on Github if you would like to learn more." />
+	</head>
 
-<body>
+	<body>
 
-	<section class="ScrollmateReturnArea">
-		<div>
-			<a href="#link_to_the_project_on_github"><svg id="scrollmateIcon" stroke="#175729" fill="#175729" xmlns="http://www.w3.org/2000/svg" width="136" height="136" viewBox="0 0 545 545"><title>Scrollmate js application logo</title><desc>Visit the Scrollmate Github page for more information</desc><path id="scrollmateBackground" fill="#35CC5F" d="M272.1 0C2.1 0 0 121.8 0 272.1s2.1 272.1 272.1 272.1 272.1-121.8 272.1-272.1S542.1 0 272.1 0z"/><path id="theIconItself" stroke-width="10" d="M146.153 138h169.324c26.158 0 47.371 21.19 47.348 47.348l-.157 174.027a35.865 35.865 0 0 0 2.352 12.856h78.234c-5.313 21.63-25.557 34.492-45.153 34.492H228.777c-26.158 0-47.372-21.19-47.348-47.348l.157-174.027a35.865 35.865 0 0 0-2.352-12.856H101c5.313-21.63 25.557-34.492 45.153-34.492zm169.324 11.915c-15.045 0-27.903 9.368-33.081 22.577h-90.933c1.198 4.106 2.042 8.373 2.038 12.856l-.157 174.027c-.018 19.619 15.814 35.433 35.433 35.433 15.045 0 27.902-9.368 33.08-22.577h90.934c-1.199-4.105-2.043-8.373-2.038-12.856l.156-174.027c.018-19.619-15.814-35.433-35.432-35.433zm-169.324 0h137.81a46.467 46.467 0 0 0-8.936 10.662H120.754c6.429-6.638 15.431-10.662 25.399-10.662zm123.073 234.232H423.5c-6.428 6.637-15.43 10.66-25.398 10.66H260.29a46.467 46.467 0 0 0 8.936-10.66z"/></svg></a>
-			<h1>Scrollmate</h1>
-			<p>scrollmate.js scrolls from one element to another when a trigger is clicked. The scroll animation time can quickly be slowed down or sped up.</p>
-			<img class="ScrollmateTrigger" src="200x200@2x-op-.png" alt="ScrollmateTrigger image placeholder" height="200" width="200">
-		</div>
-	</section>
+		<section class="ScrollmateReturnArea">
+			<div>
+				<a href="https://github.com/919Studios/Scrollmate">
+					<svg id="scrollmateIcon" xmlns="http://www.w3.org/2000/svg" width="132" height="132" viewBox="0 0 132 132">
+						<g fill="none" transform="translate(2 2)">
+							<path class="STAT" id="scrollmateBackground" fill="#35CC5F" stroke="#175729" stroke-width="3" d="M64 0C0 0 0 0 0 64s0 64 64 64 64 0 64-64 0-64-64-64z" stroke-linecap="round" stroke-linejoin="round"/>
+							<path fill="#175729" d="M40 32h32c5 0 9 5 9 11v45h15c-1 5-5 8-8 8H56c-5 0-9-5-9-11V40H32c1-5 5-8 8-8zm32 3c-3 0-5 2-6 5H49v45c0 4 3 8 7 8 3 0 5-2 6-5h17V43c0-4-3-8-7-8zm-31 0h26a13 13 0 0 0-2 3H36c1-2 3-3 5-3zm23 56h29c-1 2-3 3-5 3H62a13 13 0 0 0 2-3z"/>
+						</g>
+					</svg>
+				</a>
+				<h1>Scrollmate</h1>
+				<p>scrollmate.js scrolls from one element to another when a trigger is clicked. The scroll animation time can quickly be slowed down or sped up.</p>
+				<img class="ScrollmateTrigger" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/347964/ScrollmateTrigger200x200-op-%402x.png" alt="ScrollmateTrigger image placeholder" height="400" width="400">
+			</div>
+		</section>
 
-	<section class="spacerLight"><h2>IGNORE THIS - This Section is just for adding space</h2></section>
+		<section class="spacerLight">
+			<h2>IGNORE THIS - This Section is just for adding space</h2>
+		</section>
 
-	<section class="spacerDark">
-		<div>
-			<h1>Step #1: Add the trigger</h1>
-			<p>Add the class <code>.ScrollmateTrigger</code> to the element you want to trigger the scroll animation.</p>
-		</div>
-	</section>
+		<section class="spacerDark">
+			<div>
+				<h1>Step #1: Add the trigger</h1>
+				<p>Add the class <code>.ScrollmateTrigger</code> to the element you want to trigger the scroll animation.</p>
+			</div>
+		</section>
 
-	<section class="spacerLight"><h2>IGNORE THIS - This Section is just for adding space</h2></section>
+		<section class="spacerLight">
+			<h2>IGNORE THIS - This Section is just for adding space</h2>
+		</section>
 
-	<section class="spacerDark">
-		<div>
-			<h1>Step #2: Set the target area</h1>
-			<p>Add the class <code>.ScrollmateTriggerArea</code> to an element (or area) you want to animate to.</p>
-		</div>
-	</section>
+		<section class="spacerDark">
+			<div>
+				<h1>Step #2: Set the target area</h1>
+				<p>Add the class <code>.ScrollmateTriggerArea</code> to an element (or area) you want to animate to.</p>
+			</div>
+		</section>
 
-	<section class="spacerLight"><h2>IGNORE THIS - This Section is just for adding space</h2></section>
+		<section class="spacerLight">
+			<h2>IGNORE THIS - This Section is just for adding space</h2>
+		</section>
 
-	<section class="spacerDark">
-		<div>
-			<h1>Step #3: Import the Javascript</h1>
-			<p>Download <a href="#location_of_scrollmate_javascript_on_github">Scrollmate JavaScript</a> and import it at the bottom of your web page(s) with the code below:</p>
-			<p><code>&lt;script src="/path/to/scrollmate.js"&gt;&lt;/script&gt;</code>
-		</div>
-	</section>
+		<section class="spacerDark">
+			<div>
+				<h1>Step #3: Import the Javascript</h1>
+				<p>Download <a href="https://github.com/919Studios/Scrollmate/blob/master/scrollmate.js">Scrollmate JavaScript</a> and import it at the bottom of your web page(s) with the code below:</p>
+				<p><code>&lt;script src="/path/to/scrollmate.js"&gt;&lt;/script&gt;</code>
+			</div>
+		</section>
 
-	<section class="spacerLight"><h2>IGNORE THIS - This Section is just for adding space</h2></section>
+		<section class="spacerLight">
+			<h2>IGNORE THIS - This Section is just for adding space</h2>
+		</section>
 
-	<section class="spacerDark">
-		<div>
-			<h1>Modification Options:</h1>
-			<p><strong>Scrollmate Duration:</strong> The <a href="#link_to_line_in_js_that_does_this">Scrollmate Duration (in milliseconds)</a> is the time it takes to travel from <code>.ScrollmateTrigger</code> to the resting area <code>.ScrollmateTriggerArea</code>				(demo uses: <code>1250</code> and <code>500</code>).</p>
-		</div>
-	</section>
+		<section class="spacerDark">
+			<div>
+				<h1>Modification Options:</h1>
+				<p><strong>Scrollmate Duration:</strong> The <a href="https://github.com/919Studios/Scrollmate/blob/master/scrollmate.js#L6">Scrollmate Duration (in milliseconds)</a> is the time it takes to travel from <code>.ScrollmateTrigger</code> to the resting area
+					<code>.ScrollmateTriggerArea</code>(demo uses: <code>1250</code> and <code>500</code>).</p>
+			</div>
+		</section>
 
-	<section class="spacerLight"><h2>IGNORE THIS - This Section is just for adding space</h2></section>
+		<section class="spacerLight">
+			<h2>IGNORE THIS - This Section is just for adding space</h2>
+		</section>
 
-	<section class="spacerDark">
-		<div>
-			<h1>Questions / Issues / Improvements</h1>
-			<p>If you have any questions, if you’ve discovered an issue, or if you have an improvement in mind, please use the <a href="#link_to_scrollmate_on_github">Scrollmate GitHub repo</a> to get involved:</p>
-			<p><a href="#link_to_the_repo_on_github" class="button">Scrollmate on GitHub</a></p>
-		</div>
-	</section>
+		<section class="spacerDark">
+			<div>
+				<h1>Questions / Issues / Improvements</h1>
+				<p>If you have any questions, if you’ve discovered an issue, or if you have an improvement in mind, please use the <a href="https://github.com/919Studios/Scrollmate">Scrollmate GitHub repo</a> to get involved:</p>
+				<p><a href="https://github.com/919Studios/Scrollmate" class="button">Scrollmate on GitHub</a></p>
+			</div>
+		</section>
 
-	<section class="spacerLight"><h2>IGNORE THIS - This Section is just for adding space</h2></section>
+		<section class="spacerLight">
+			<h2>IGNORE THIS - This Section is just for adding space</h2>
+		</section>
 
-	<section class="ScrollmateTriggerArea">
-		<h1>Trigger Area</h1>
-		<p>This is the <code>.ScrollmateTriggerArea</code> that Scrollmate is animating to. </p>
-		<div>
-			<button class="ScrollmateReturnTrigger button">RETURN TO SCROLLMATE</button>
-		</div>
-	</section>
+		<section class="spacerDark">
+			<div>
+				<h1>Scrollmate: Next up…</h1>
+				<ul>
+					<li>Scrollmate <code>data- attributes</code> version. <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*">Learn More →</a></li>
+					<li>Scrollmate usage examples.</li>
+					<li>Vanilla js version.</li>
+				</ul>
+			</div>
+		</section>
 
-	<section class="spacerLight"><h2>IGNORE THIS - This Section is just for adding space</h2></section>
+		<section class="spacerLight">
+			<h2>IGNORE THIS - This Section is just for adding space</h2>
+		</section>
 
-	<section class="spacerDark">
-		<div>
-			<h1>Scrollmate: Next up…</h1>
-			<ul>
-				<li>Scrollmate parameters configurable with <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*"><code>data- attributes</code></a></li>
-				<li>Add click helper js utility to improve UX.</li>
-				<li>Integrate other cool tools (such as <a href="#add_link_to_github_fadable_js">Fadable</a> from the fine gentleman at: <a href="#add_outfit_website_link_here">The Outfit</a>)</li>
-			</ul>
-		</div>
-	</section>
+		<section class="ScrollmateTriggerArea">
+			<div>
+				<h1>Trigger Area</h1>
+				<p>This is the <code>.ScrollmateTriggerArea</code> that Scrollmate is animating to. </p>
+				<button class="ScrollmateReturnTrigger button">RETURN TO SCROLLMATE</button>
+			</div>
+		</section>
 
-	<section class="spacerLight"><h2>IGNORE THIS - This Section is just for adding space</h2></section>
+		<section class="spacerLight">
+			<h2>IGNORE THIS - This Section is just for adding space</h2>
+		</section>
 
-	<section class="spacerDark">
-		<div>
-			<h1>Back to ScrollMate on Github</h1>
-			<p><a href="#link_to_github_goes_here" class="link-to-github"><svg xmlns="http://www.w3.org/2000/svg" width="114" height="96" viewBox="0 0 114 96"><path fill="#8B8C8C" d="M42.44 59.302L.522 41.827l8.238-3.631 41.396 16.885z"/><path fill="#D6D4D5" d="M41.895 68.721l-8.216-3.45V17.339l8.216 3.813z"/><path fill="#D6D4D5" d="M41.895 44.777L0 26.848V3.7l41.85 17.475.045 23.603zm0 23.944L.59 50.905l-.068-9.078 41.373 17.248v9.646z"/><path fill="#8B8C8C" d="M34.27 33.657L6.264 21.174V14.23l27.983 12.255z"/><path fill="#5F6161" d="M13.912 17.566l-7.648 3.586V14.23l7.67 3.359-.022-.023zM64 70.672l-8.261 4.585v-47.57l8.579-3.449L64 70.672z"/><path fill="#5F6161" d="M50.156 64.136l-8.261 4.585V21.22l8.579-3.518z"/><path fill="#B2B5B5" d="M41.895 21.22L0 3.677 8.579.159l41.895 17.543z"/><path fill="#D6D4D5" d="M55.739 75.257l-8.216-3.927V23.898l8.216 3.79z"/><path fill="#B2B5B5" d="M55.739 27.688l-8.125-3.767 8.352-3.495 8.352 3.812z"/><path fill="#8B8C8C" d="M105.26 86.536L63.365 69.061l7.58-3.404 41.078 17.203z"/><path fill="#D6D4D5" d="M104.715 95.909l-8.216-3.404V44.528l8.216 3.79z"/><path fill="#D6D4D5" d="M104.715 71.943L62.82 54.014V30.865l41.85 17.475.045 23.603zm0 23.966L63.41 78.094l-.068-8.965 41.441 17.112-.068 9.668z"/><path fill="#8B8C8C" d="M97.067 60.823L69.084 48.34v-6.922l27.983 12.301z"/><path fill="#5F6161" d="M76.71 44.755l-7.604 3.585v-6.922l7.671 3.36-.068-.023zm36.266 46.57l-8.261 4.584v-47.5l8.579-3.518-.318 46.434z"/><path fill="#B2B5B5" d="M104.715 48.409L62.82 30.865l8.579-3.517 41.895 17.543z"/></svg></a></p>
-		</div>
-	</section>
+		<section class="spacerDark">
+			<div>
+				<h1>Back to ScrollMate on Github</h1>
+				<p><a href="https://github.com/919Studios/Scrollmate" class="link-to-github"><svg xmlns="http://www.w3.org/2000/svg" width="114" height="96" viewBox="0 0 114 96"><path fill="#8B8C8C" d="M42.44 59.302L.522 41.827l8.238-3.631 41.396 16.885z"/><path fill="#D6D4D5" d="M41.895 68.721l-8.216-3.45V17.339l8.216 3.813z"/><path fill="#D6D4D5" d="M41.895 44.777L0 26.848V3.7l41.85 17.475.045 23.603zm0 23.944L.59 50.905l-.068-9.078 41.373 17.248v9.646z"/><path fill="#8B8C8C" d="M34.27 33.657L6.264 21.174V14.23l27.983 12.255z"/><path fill="#5F6161" d="M13.912 17.566l-7.648 3.586V14.23l7.67 3.359-.022-.023zM64 70.672l-8.261 4.585v-47.57l8.579-3.449L64 70.672z"/><path fill="#5F6161" d="M50.156 64.136l-8.261 4.585V21.22l8.579-3.518z"/><path fill="#B2B5B5" d="M41.895 21.22L0 3.677 8.579.159l41.895 17.543z"/><path fill="#D6D4D5" d="M55.739 75.257l-8.216-3.927V23.898l8.216 3.79z"/><path fill="#B2B5B5" d="M55.739 27.688l-8.125-3.767 8.352-3.495 8.352 3.812z"/><path fill="#8B8C8C" d="M105.26 86.536L63.365 69.061l7.58-3.404 41.078 17.203z"/><path fill="#D6D4D5" d="M104.715 95.909l-8.216-3.404V44.528l8.216 3.79z"/><path fill="#D6D4D5" d="M104.715 71.943L62.82 54.014V30.865l41.85 17.475.045 23.603zm0 23.966L63.41 78.094l-.068-8.965 41.441 17.112-.068 9.668z"/><path fill="#8B8C8C" d="M97.067 60.823L69.084 48.34v-6.922l27.983 12.301z"/><path fill="#5F6161" d="M76.71 44.755l-7.604 3.585v-6.922l7.671 3.36-.068-.023zm36.266 46.57l-8.261 4.584v-47.5l8.579-3.518-.318 46.434z"/><path fill="#B2B5B5" d="M104.715 48.409L62.82 30.865l8.579-3.517 41.895 17.543z"/></svg></a></p>
+			</div>
+		</section>
 
-	<section class="spacerLight"><h2>IGNORE THIS - This Section is just for adding space</h2></section>
+		<svg class="spacingLogo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 75"><g fill="none" fill-rule="evenodd"><path fill="#F6F8FA" d="M0 0h450v75H0z"/><g fill-rule="nonzero" stroke="#6A737E" transform="translate(15 14.5)"><path fill="#F6F8FA" stroke-width="1.2" d="M20 0C0 0 0 0 0 20s0 20 20 20 20 0 20-20S40 0 20 0z" stroke-linecap="round" stroke-linejoin="round"/><path fill="#6A737E" stroke-width=".5" d="M12.5 10h10c1.563 0 2.813 1.563 2.813 3.438V27.5H30c-.313 1.563-1.563 2.5-2.5 2.5h-10c-1.563 0-2.813-1.563-2.813-3.438V12.5H10c.313-1.563 1.563-2.5 2.5-2.5zm10 .938c-.938 0-1.563.624-1.875 1.562h-5.313v14.063c0 1.25.938 2.5 2.188 2.5.938 0 1.563-.625 1.875-1.563h5.313V13.437c0-1.25-.938-2.5-2.188-2.5zm-9.688 0h8.126c-.251.281-.462.597-.625.937H11.25c.313-.625.938-.938 1.563-.938zM20 28.438h9.063c-.313.625-.938.937-1.563.937h-8.125c.25-.282.461-.597.625-.938z"/></g><path fill="#6A737E" d="M82.18 54.88c-8.632 0-13.525-3.849-15.285-9.676l9.511-4.894c1.21 3.024 3.3 4.399 6.708 4.399 2.804 0 4.068-.825 4.288-2.034.385-2.255-3.629-2.804-6.927-3.959-5.388-1.87-9.896-5.443-8.632-12.645 1.21-6.872 7.202-11.435 15.12-11.435 6.652 0 11.435 3.243 13.799 8.961l-9.292 4.948c-1.044-2.694-2.968-3.738-5.223-3.738-1.979 0-3.078.934-3.298 1.979-.33 1.65 1.154 2.419 5.937 4.013 5.168 1.705 10.831 4.234 9.402 12.755-1.32 7.587-7.367 11.326-16.109 11.326zm34.28 0c-11.93 0-19.298-8.797-17.374-20.672 1.87-11.49 11.38-19.572 22.651-19.572 8.192 0 13.36 3.958 16.219 9.456l-10.061 5.333c-1.375-2.474-3.849-4.014-7.147-4.014-5.223 0-9.786 3.904-10.721 9.347-.88 5.003 1.814 9.346 7.257 9.346 3.409 0 5.883-1.704 7.862-4.288l9.126 5.772c-3.958 5.828-10.336 9.292-17.813 9.292zm50.938-25.345c-.825 4.728-3.629 8.246-7.697 10.336l4.948 14.074h-10.995l-3.959-12.095h-3.518l-2.145 12.095h-10.995l6.817-38.485h15.394c7.752 0 13.634 5.773 12.15 14.075zm-18.363-3.959l-1.264 7.148h4.508c2.144.054 3.739-1.265 4.123-3.52.385-2.253-.77-3.628-2.968-3.628h-4.399zm35.27 29.304c-13.084 0-19.462-10.611-17.813-20.782 1.65-9.951 10.116-19.462 22.926-19.462 13.03 0 19.243 10.446 17.648 20.562-1.54 10.006-9.786 19.682-22.76 19.682zm.825-10.776c5.443 0 10.116-4.013 11.05-9.346.935-5.333-2.309-9.347-7.751-9.347-5.443 0-10.116 4.014-11.051 9.347-.935 5.333 2.31 9.346 7.752 9.346zm33.126-.77H230.9L229.03 54h-23.64l6.762-38.485h10.996l-4.893 27.82zm24.439 0h12.645L253.47 54h-23.64l6.762-38.485h10.996l-4.893 27.82zm58.47-27.819L294.404 54h-10.995l3.243-18.528-10.775 14.185h-.99l-6.267-14.9L265.265 54h-10.996l6.763-38.485h10.995l5.773 15.78 11.82-15.78h11.546zM319.998 54l-.44-4.948h-11.105l-2.2 4.948h-12.15l19.023-38.485h12.865L331.487 54h-11.49zm-7.642-13.745h6.377l-1.1-11.82-5.277 11.82zm49.784-24.74l-1.87 10.666h-9.07L346.304 54H335.31l4.893-27.819h-9.071L333 15.515h29.138zm24.054 10.006h-14.019l-.715 4.179h12.645l-1.759 9.896H369.7l-.77 4.288h14.295L381.465 54h-25.29l6.763-38.485h25.015l-1.76 10.006zm2.558 29.304c-3.518 0-5.827-2.914-5.222-6.433.604-3.518 3.793-6.212 7.422-6.212 3.518 0 5.772 2.914 5.168 6.432-.605 3.519-3.52 6.213-7.368 6.213zm21.086-41.619c-3.409 0-6.103 2.86-6.542 5.608-.495 3.024 1.649 5.608 4.783 5.608 3.188 0 5.992-2.584 6.487-5.608.495-2.969-1.54-5.608-4.728-5.608zM397.632 54l4.838-27.489h10.17L407.804 54c-1.595 9.236-6.543 12.37-15.834 11.875l1.595-9.126c2.419.22 3.683-.66 4.068-2.749zm24.11.77c-6.048 0-10.502-1.595-12.646-6.763l8.632-4.123c.88 2.254 2.529 3.134 4.288 3.134 1.045 0 2.034-.275 2.2-1.155.55-2.914-13.47-1.32-11.656-11.765 1.045-6.103 7.092-8.357 12.15-8.357 5.003 0 9.401 1.925 11.27 6.378l-8.136 3.793c-.715-1.869-1.814-2.584-3.244-2.694-.88-.055-1.76.385-1.924 1.21-.715 3.628 13.69.77 11.655 12.205-1.1 6.212-7.092 8.137-12.59 8.137z"/></g></svg>
 
-	<!--load jQ-->
-	<script src='jQuery-v.3.2.1.js'></script>
-	<!--load scrollmate-->
-	<script src="scrollmate.js"></script>
-</body>
+		<!--load jQ-->
+		<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/347964/jQuery-v.3.2.1.js"></script>
+		<!--load scrollmate-->
+		<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/347964/scrollmate.js"></script>
+	</body>
 
 </html>
