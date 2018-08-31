@@ -1,9 +1,9 @@
-![ScrollMate Logo](https://www.919studio.com/wp-content/uploads/ScrollmateMarkdownLogo@2x.png"Scrollmate Logo by 919 Studios on Github")
+![ScrollMate Logo](https://www.919studio.com/wp-content/uploads/ScrollmateMarkdownLogo@2x.png)
 
 # Scrollmate.js
 Click an element to slowly scroll to a different section.
 
-![ScrollMate in action](https://www.919studio.com/wp-content/uploads/Scrollmate_Demo-919_Studio-2-.gif"Scrollmate Video Clip of Demo")
+![ScrollMate in action](https://www.919studio.com/wp-content/uploads/Scrollmate_Demo-919_Studio-2-.gif)
 
 ## Demo
 [Scrollmate Demo](https://codepen.io/johnnie123/live/db25630081c5253f9627882ff0fa79b3)
