@@ -3,7 +3,8 @@
 // TABLE OF CONTENTS:
 // 1- CSS CLASS that you want to use for a trigger (demo uses: ".ScrollmateTrigger")
 // 2- CSS CLASS that trigger should scroll to (demo uses: ".ScrollmateTriggerArea")
-// 3- Scrollmate Duration (in milliseconds) this is the time it takes to travel from .ScrollmateTrigger to the resting area (demo uses: 1250 and 500)
+// 3- Scrollmate Duration (in milliseconds) this is the time it takes to
+//    travel from .ScrollmateTrigger to the resting area (demo uses: 1250 and 500)
 
 // FROM ScrollmateTrigger TO ScrollmateTriggerArea
 $(function() {

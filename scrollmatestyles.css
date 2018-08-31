@@ -9,6 +9,7 @@ html {
 
 body {
 	font-family: "gilroy";
+	background-color: #F6F8FA;
 }
 
 .ScrollmateReturnArea {
@@ -46,6 +47,10 @@ h1 {
 	transition: all 250ms ease;
 }
 
+.spacingLogo {
+	padding-top: 25vh;
+}
+
 .button {
 	border-radius: 3px;
 	color: rgba(0, 0, 0, 0.75);
@@ -66,25 +71,23 @@ h1 {
 	color: #f8f8f8;
 }
 
-#scrollmateIcon {
-	stroke-width: 10;
-	padding: 1rem;
-	cursor: pointer;
+.STAT {
+	transition: all 350ms ease;
+	stroke-dasharray: 460;
+	stroke-dashoffset:0;
+	animation: notthesamenamenow 2s infinite linear forwards;
+	-moz-animation: notthesamenamenow 2s linear forwards;
+	-webkit-animation: notthesamenamenow 2s linear forwards;
+	-o-animation: notthesamenamenow 2s linear forwards;
 }
-
-#scrollmateIcon:hover {
-	stroke: #fc555b;
-	fill: #fc555b;
-	stroke-width: 10;
-	padding: 1rem;
-}
-
-#scrollmateBackground {
-	fill: #35cc5f;
+@-webkit-keyframes notthesamenamenow {
+	from { stroke-dashoffset: 460; }
+	to { stroke-dashoffset: 0;}
 }
 
 #scrollmateBackground:hover {
-	fill: #8c2629;
+	fill: #F6F8FA;
+	stroke: #F6F8FA;
 }
 
 section {
@@ -141,8 +144,8 @@ a {
 pre {
 	text-align: left;
 }
-.link-to-outfit:hover path,
-.link-to-outfit:focus path {
+.websiteLink:hover path,
+.websiteLink:focus path {
 	fill: rgba(0, 0, 0, 0.325);
 }
 
