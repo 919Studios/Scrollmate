@@ -80,7 +80,13 @@ h1 {
 	-webkit-animation: notthesamenamenow 2s linear forwards;
 	-o-animation: notthesamenamenow 2s linear forwards;
 }
-@-webkit-keyframes notthesamenamenow {
+/* BELOW: original css... IT WAS REMOVED TO FIX ERROR THOUGH...*/
+/* @-webkit-keyframes notthesamenamenow { 							*/
+/*  	from { stroke-dashoffset: 460; }									*/
+/*  	to { stroke-dashoffset: 0 ;} 										*/
+/* } 																				*/
+/* BELOW: updated css */
+@keyframes notthesamenamenow {
 	from { stroke-dashoffset: 460; }
 	to { stroke-dashoffset: 0;}
 }
