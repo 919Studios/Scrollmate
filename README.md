@@ -17,8 +17,3 @@ Click an element to slowly scroll to a different section.
 ## Options / Adjustments
 **Scrollmate Duration:** The time (in milliseconds) it takes to travel from `.ScrollmateTrigger` to `.ScrollmateTriggerArea`.
 To adjust this option, open [scrollmate.js](https://github.com/919Studios/Scrollmate/blob/master/scrollmate.js) and adjust the [Scrollmate Duration](https://github.com/919Studios/Scrollmate/blob/master/scrollmate.js#L6).  The Scrollmate demo defaults are `1250` and `500`).
-
-## Coming soon to Scrollmate JS:
-- [ ] Data - attributes.
-- [ ] Scrollmate usage examples.
-- [ ] vanilla javascript version.
